@@ -1,6 +1,9 @@
 코드를 작성해서 유아이 만들어보기
+
 CRUD 구현해보기
+
 Task 모델 사용하기
+
 Data manager 파일 생성해서 할일 목록을 관리하도록 하기 
 싱글턴 패턴:  `static let shared = DataManager()` 코드는 `DataManager`의 유일한 인스턴스를 생성하며, `private init() {}` 코드는 외부에서 새 인스턴스를 생성하는 것을 방지
 UserDefaults 사용: 이 클래스는 UserDefaults를 사용하여 할 일 목록을 저장하고 불러옫록 하기 
